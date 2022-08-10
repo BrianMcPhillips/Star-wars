@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const Character = ({ name }) => (
   <>
     <h2>{name}</h2>
+    <h1>Character</h1>
   </>
 );
 
