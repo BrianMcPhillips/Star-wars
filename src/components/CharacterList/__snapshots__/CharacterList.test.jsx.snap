@@ -2,6 +2,12 @@
 
 exports[`CharacterList component renders CharacterList 1`] = `
 <DocumentFragment>
-  <ul />
+  <ul>
+    <li>
+      <h2>
+        Luke Skywalker
+      </h2>
+    </li>
+  </ul>
 </DocumentFragment>
 `;
