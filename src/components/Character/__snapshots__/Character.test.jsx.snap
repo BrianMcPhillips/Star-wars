@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders Character 1`] = `
+<DocumentFragment>
+  <h2>
+    Luke Skywalker
+  </h2>
+</DocumentFragment>
+`;

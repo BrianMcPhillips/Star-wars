@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterList component renders CharacterList 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <h2>
+        Luke Skywalker
+      </h2>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
