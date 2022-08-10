@@ -4,13 +4,15 @@ import {
   Route,
   Routes
 } from 'react-router-dom';
-import CharacterPage from '../../containers/CharacterPage/CharacterPage';
+import CharacterDetailPage from 
+  '../../containers/CharacterDetailPage/CharacterDetailPage';
+
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<CharacterPage />} />
+        <Route path="/" element={<CharacterDetailPage />} />
       </Routes>
     </Router>
   );
