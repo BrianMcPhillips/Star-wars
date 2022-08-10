@@ -9,12 +9,16 @@ const CharacterPage = () => {
     fetch('https://swapi.dev/api/people/')
       .then(res => res.json())
       .then(data => setData(data.results))
-      .finally(setLoading(false));
+      .finally(() => setLoading(false));
   }, []);
 
   if(loading) return (<h1>Loading...</h1>);
   return (
-    <CharacterList data={data}/>
+    <div>
+      <h1>Characters</h1>
+      <CharacterList data={data}/>
+    </div>
+    
   );
 
 
