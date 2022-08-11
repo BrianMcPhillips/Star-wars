@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterDetail component renders CharacterDetail 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Luke Skywalker
+    </h1>
+    <h4>
+      Birth Year: 19BBY
+    </h4>
+    <h4>
+      Hair color: blond
+    </h4>
+    <h4>
+      Films: 
+      <p>
+        https://swapi.dev/api/films/1/
+      </p>
+      <p>
+        https://swapi.dev/api/films/2/
+      </p>
+      <p>
+        https://swapi.dev/api/films/3/
+      </p>
+      <p>
+        https://swapi.dev/api/films/6/
+      </p>
+    </h4>
+    <h4>
+      Vehicles: 
+      <p>
+        https://swapi.dev/api/vehicles/14/
+      </p>
+      <p>
+        https://swapi.dev/api/vehicles/30/
+      </p>
+    </h4>
+    <h4>
+      Starships: 
+      <p>
+        https://swapi.dev/api/starships/12/
+      </p>
+      <p>
+        https://swapi.dev/api/starships/22/
+      </p>
+    </h4>
+  </div>
+</DocumentFragment>
+`;

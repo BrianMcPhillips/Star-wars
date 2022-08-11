@@ -1,6 +1,19 @@
 import React from 'react';
-import CharacterPage from '../../containers/CharacterPage/CharacterPage';
+import { 
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from 'react-router-dom';
+import CharacterDetailPage from 
+  '../../containers/CharacterDetailPage/CharacterDetailPage';
+
 
 export default function App() {
-  return <CharacterPage />;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<CharacterDetailPage />} />
+      </Routes>
+    </Router>
+  );
 }
