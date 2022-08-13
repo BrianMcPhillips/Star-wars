@@ -6,14 +6,16 @@ import {
 } from 'react-router-dom';
 import CharacterDetailPage from 
   '../../containers/CharacterDetailPage/CharacterDetailPage';
-import CharacterPage from '../../containers/CharacterPage/CharacterPage';
+import FilmPage from '../../containers/FilmPage/FilmPage';
+// import CharacterPage from '../../containers/CharacterPage/CharacterPage';
+
 
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<CharacterPage />} />
+        <Route path="/" element={<FilmPage />} />
         <Route path="/detail/:id" element={<CharacterDetailPage />} />
       </Routes>
     </Router>
