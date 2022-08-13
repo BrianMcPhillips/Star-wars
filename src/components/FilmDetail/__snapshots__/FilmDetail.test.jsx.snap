@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilmDetail component renders FilmDetail 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      A New Hope
+    </h1>
+    <h3>
+      Release date: 1977-05-25
+    </h3>
+    <h3>
+      Producer: Gary Kurtz, Rick McCallum
+    </h3>
+    <h3>
+      Director: George Lucas
+    </h3>
+    <h3>
+      Characters: 
+    </h3>
+    <h3>
+      Planets: 
+    </h3>
+    <h3>
+      Species: 
+    </h3>
+    <h3>
+      Starships: 
+    </h3>
+    <h3>
+      Vehicles: 
+    </h3>
+  </div>
+</DocumentFragment>
+`;

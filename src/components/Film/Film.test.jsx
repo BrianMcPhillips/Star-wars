@@ -8,7 +8,7 @@ describe('Film component', () => {
   it('renders Film', () => {
     const { asFragment } = render(
       <Film 
-        name="A New Hope"
+        title="A New Hope"
         url="https://swapi.dev/api/films/1/"
       />
     );
