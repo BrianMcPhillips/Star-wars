@@ -14,18 +14,34 @@ exports[`CharacterDetail component renders CharacterDetail 1`] = `
     </h4>
     <h4>
       Films: 
-      <p>
-        https://swapi.dev/api/films/1/
-      </p>
-      <p>
-        https://swapi.dev/api/films/2/
-      </p>
-      <p>
-        https://swapi.dev/api/films/3/
-      </p>
-      <p>
-        https://swapi.dev/api/films/6/
-      </p>
+      <a
+        href="/film-detail/1/"
+      >
+        <p>
+          https://swapi.dev/api/films/1/
+        </p>
+      </a>
+      <a
+        href="/film-detail/2/"
+      >
+        <p>
+          https://swapi.dev/api/films/2/
+        </p>
+      </a>
+      <a
+        href="/film-detail/3/"
+      >
+        <p>
+          https://swapi.dev/api/films/3/
+        </p>
+      </a>
+      <a
+        href="/film-detail/6/"
+      >
+        <p>
+          https://swapi.dev/api/films/6/
+        </p>
+      </a>
     </h4>
     <h4>
       Vehicles: 

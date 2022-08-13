@@ -17,18 +17,78 @@ exports[`FilmDetail component renders FilmDetail 1`] = `
     </h3>
     <h3>
       Characters: 
+      <p>
+        https://swapi.dev/api/people/1/
+      </p>
+      <p>
+        https://swapi.dev/api/people/2/
+      </p>
+      <p>
+        https://swapi.dev/api/people/3/
+      </p>
+      <p>
+        https://swapi.dev/api/people/4/
+      </p>
+      <p>
+        https://swapi.dev/api/people/5/
+      </p>
     </h3>
     <h3>
       Planets: 
+      <p>
+        https://swapi.dev/api/planets/1/
+      </p>
+      <p>
+        https://swapi.dev/api/planets/2/
+      </p>
+      <p>
+        https://swapi.dev/api/planets/3/
+      </p>
     </h3>
     <h3>
       Species: 
+      <p>
+        https://swapi.dev/api/species/1/
+      </p>
+      <p>
+        https://swapi.dev/api/species/2/
+      </p>
+      <p>
+        https://swapi.dev/api/species/3/
+      </p>
+      <p>
+        https://swapi.dev/api/species/4/
+      </p>
+      <p>
+        https://swapi.dev/api/species/5/
+      </p>
     </h3>
     <h3>
       Starships: 
+      <p>
+        https://swapi.dev/api/starships/2/
+      </p>
+      <p>
+        https://swapi.dev/api/starships/3/
+      </p>
+      <p>
+        https://swapi.dev/api/starships/5/
+      </p>
     </h3>
     <h3>
       Vehicles: 
+      <p>
+        https://swapi.dev/api/vehicles/4/
+      </p>
+      <p>
+        https://swapi.dev/api/vehicles/6/
+      </p>
+      <p>
+        https://swapi.dev/api/vehicles/7/
+      </p>
+      <p>
+        https://swapi.dev/api/vehicles/8/
+      </p>
     </h3>
   </div>
 </DocumentFragment>
