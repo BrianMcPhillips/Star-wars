@@ -7,6 +7,8 @@ import {
 import CharacterDetailPage from 
   '../../containers/CharacterDetailPage/CharacterDetailPage';
 import CharacterPage from '../../containers/CharacterPage/CharacterPage';
+import FilmDetailPage from '../../containers/FilmDetailPage/FilmDetailPage';
+
 
 
 export default function App() {
@@ -14,7 +16,8 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<CharacterPage />} />
-        <Route path="/detail/:id" element={<CharacterDetailPage />} />
+        <Route path="/char-detail/:id" element={<CharacterDetailPage />} />
+        <Route path="/film-detail/:id" element={<FilmDetailPage />} />
       </Routes>
     </Router>
   );

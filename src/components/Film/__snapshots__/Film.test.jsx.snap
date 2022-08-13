@@ -2,6 +2,8 @@
 
 exports[`Film component renders Film 1`] = `
 <DocumentFragment>
-  <h2 />
+  <h2>
+    A New Hope
+  </h2>
 </DocumentFragment>
 `;
