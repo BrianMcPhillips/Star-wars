@@ -17,21 +17,41 @@ exports[`FilmDetail component renders FilmDetail 1`] = `
     </h3>
     <h3>
       Characters: 
-      <p>
-        https://swapi.dev/api/people/1/
-      </p>
-      <p>
-        https://swapi.dev/api/people/2/
-      </p>
-      <p>
-        https://swapi.dev/api/people/3/
-      </p>
-      <p>
-        https://swapi.dev/api/people/4/
-      </p>
-      <p>
-        https://swapi.dev/api/people/5/
-      </p>
+      <a
+        href="/char-detail/1/"
+      >
+        <p>
+          https://swapi.dev/api/people/1/
+        </p>
+      </a>
+      <a
+        href="/char-detail/2/"
+      >
+        <p>
+          https://swapi.dev/api/people/2/
+        </p>
+      </a>
+      <a
+        href="/char-detail/3/"
+      >
+        <p>
+          https://swapi.dev/api/people/3/
+        </p>
+      </a>
+      <a
+        href="/char-detail/4/"
+      >
+        <p>
+          https://swapi.dev/api/people/4/
+        </p>
+      </a>
+      <a
+        href="/char-detail/5/"
+      >
+        <p>
+          https://swapi.dev/api/people/5/
+        </p>
+      </a>
     </h3>
     <h3>
       Planets: 

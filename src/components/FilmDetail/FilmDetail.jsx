@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const FilmDetail = ({ 
   title, 
@@ -22,7 +23,14 @@ const FilmDetail = ({
       <h3>Release date: {release_date}</h3>
       <h3>Producer: {producer}</h3>
       <h3>Director: {director}</h3>
-      <h3>Characters: {mapData(characters)}</h3>
+      <h3>Characters: {characters.map((character, i) =>
+        <Link 
+          to={`/char-detail/${character.split('people/')[1]}`} 
+          key={character + i}>
+          <p>{character}</p>
+        </Link>
+      )}
+      </h3>
       <h3>Planets: {mapData(planets)}</h3>
       <h3>Species: {mapData(species)}</h3>
       <h3>Starships: {mapData(starships)}</h3>
