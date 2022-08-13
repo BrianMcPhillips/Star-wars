@@ -20,7 +20,8 @@ const CharacterList = ({ data }) => {
 
 CharacterList.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
   }))
 };
 
