@@ -8,7 +8,7 @@ const Character = ({ name, url }) => {
   return (
     <div>
       <h2>
-        <Link to={`/detail/${id}`}>
+        <Link to={`/char-detail/${id}`}>
           {name}
         </Link>
       </h2>

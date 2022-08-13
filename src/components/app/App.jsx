@@ -6,8 +6,8 @@ import {
 } from 'react-router-dom';
 import CharacterDetailPage from 
   '../../containers/CharacterDetailPage/CharacterDetailPage';
-import FilmPage from '../../containers/FilmPage/FilmPage';
-// import CharacterPage from '../../containers/CharacterPage/CharacterPage';
+import CharacterPage from '../../containers/CharacterPage/CharacterPage';
+import FilmDetailPage from '../../containers/FilmDetailPage/FilmDetailPage';
 
 
 
@@ -15,8 +15,9 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<FilmPage />} />
-        <Route path="/detail/:id" element={<CharacterDetailPage />} />
+        <Route path="/" element={<CharacterPage />} />
+        <Route path="/char-detail/:id" element={<CharacterDetailPage />} />
+        <Route path="/film-detail/:id" element={<FilmDetailPage />} />
       </Routes>
     </Router>
   );

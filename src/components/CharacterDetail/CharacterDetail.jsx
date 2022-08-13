@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const CharacterDetail = ({ 
   name, 
@@ -14,7 +15,9 @@ const CharacterDetail = ({
     <h4>Birth Year: {birth_year}</h4>
     <h4>Hair color: {hair_color}</h4>
     <h4>Films: {films.map((film, i) => 
-      <p key={film + i}>{film}</p>)}
+      <Link to={`/film-detail/${film.split('films/')[1]}`} key={film + i}>
+        <p>{film}</p> 
+      </Link>)}
     </h4>
     <h4>Vehicles: {vehicles.map((vehicle, i) => 
       <p key={vehicle + i}>{vehicle}</p>)}
