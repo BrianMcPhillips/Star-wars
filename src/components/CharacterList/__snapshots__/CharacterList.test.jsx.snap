@@ -4,9 +4,15 @@ exports[`CharacterList component renders CharacterList 1`] = `
 <DocumentFragment>
   <ul>
     <li>
-      <h2>
-        Luke Skywalker
-      </h2>
+      <div>
+        <h2>
+          <a
+            href="/detail/1/"
+          >
+            Luke Skywalker
+          </a>
+        </h2>
+      </div>
     </li>
   </ul>
 </DocumentFragment>

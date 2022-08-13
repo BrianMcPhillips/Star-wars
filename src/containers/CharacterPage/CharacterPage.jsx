@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import CharacterList from '../../components/CharacterList/CharacterList';
+import { fetchCharacters } from '../../services/star-wars-api';
 
 const CharacterPage = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   
   useEffect(() => {
-    fetch('https://swapi.dev/api/people/')
-      .then(res => res.json())
+    fetchCharacters()
       .then(data => setData(data.results))
       .finally(() => setLoading(false));
   }, []);

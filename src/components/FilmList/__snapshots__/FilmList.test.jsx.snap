@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilmList component renders FilmList 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <h2>
+        A New Hope
+      </h2>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
