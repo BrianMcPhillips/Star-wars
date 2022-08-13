@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import FilmDetail from '../../components/FilmDetail/FilmDetail';
+import FilmDetail from '../../components/films/FilmDetail/FilmDetail';
 
 const FilmDetailPage = () => {
   const [loading, setLoading] = useState(true);
