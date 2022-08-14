@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import FilmDetail from '../../components/films/FilmDetail/FilmDetail';
+import StarShipDetail from 
+  '../../../components/starships/StarShipDetail/StarShipDetail';
 
-const FilmDetailPage = () => {
+const StarShipDetailPage = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState({});
-  const { id } = useParams();
 
   useEffect(() => {
-    fetch(`https://swapi.dev/api/films/${id}`)
+    fetch('https://swapi.dev/api/starships/5/')
       .then(res => res.json())
       .then(data => setData(data))
       .finally(() => setLoading(false));
@@ -16,8 +15,8 @@ const FilmDetailPage = () => {
 
   if(loading) return <h1>Loading...</h1>;
   return (
-    <FilmDetail {...data}/>
+    <StarShipDetail {...data}/>
   );
 };
 
-export default FilmDetailPage;
+export default StarShipDetailPage;

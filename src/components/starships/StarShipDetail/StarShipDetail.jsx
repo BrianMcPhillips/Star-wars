@@ -23,7 +23,7 @@ const StarShipDetail = ({
     <h4>Cost: {const_in_credits} credits</h4>
     <h4>Length: {length}</h4>
     <h4>Max Speed: {max_atmosphering_speed} atmospheres</h4>
-    <h5>No. of crew {crew}</h5>
+    <h5>No. of crew: {crew}</h5>
     <h5>Passengers: {passengers}</h5>
     <h5>HyperDrive Rating: {hyperdrive_rating}</h5>
     <h5>Starship Class: {starship_class}</h5>
