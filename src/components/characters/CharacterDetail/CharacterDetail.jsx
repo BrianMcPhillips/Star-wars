@@ -15,7 +15,9 @@ const CharacterDetail = ({
     <h4>Birth Year: {birth_year}</h4>
     <h4>Hair color: {hair_color}</h4>
     <h4>Films: {films.map((film, i) => 
-      <Link to={`/film-detail/${film.split('films/')[1]}`} key={film + i}>
+      <Link 
+        to={`/film-detail/${film.split('films/')[1]}`} 
+        key={film + i}>
         <p>{film}</p> 
       </Link>)}
     </h4>
@@ -23,7 +25,11 @@ const CharacterDetail = ({
       <p key={vehicle + i}>{vehicle}</p>)}
     </h4>
     <h4>Starships: {starships.map((ship, i) => 
-      <p key={ship + i}>{ship}</p>)}
+      <Link 
+        to={`/ship-detail/${ship.split('ships/')[1]}`} 
+        key={ship + i}>
+        <p>{ship}</p>
+      </Link>)}
     </h4>
   </div>
 );

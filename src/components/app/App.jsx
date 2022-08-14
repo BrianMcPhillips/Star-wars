@@ -5,9 +5,13 @@ import {
   Routes
 } from 'react-router-dom';
 import CharacterDetailPage from 
-  '../../containers/CharacterDetailPage/CharacterDetailPage';
-import CharacterPage from '../../containers/CharacterPage/CharacterPage';
-import FilmDetailPage from '../../containers/FilmDetailPage/FilmDetailPage';
+  '../../containers/character/CharacterDetailPage/CharacterDetailPage';
+import CharacterPage from 
+  '../../containers/character/CharacterPage/CharacterPage';
+import FilmDetailPage from 
+  '../../containers/film/FilmDetailPage/FilmDetailPage';
+import StarShipDetailPage from 
+  '../../containers/starship/StarShipDetailPage/StarShipDetailPage';
 
 
 
@@ -18,6 +22,7 @@ export default function App() {
         <Route path="/" element={<CharacterPage />} />
         <Route path="/char-detail/:id" element={<CharacterDetailPage />} />
         <Route path="/film-detail/:id" element={<FilmDetailPage />} />
+        <Route path="/ship-detail/:id" element={<StarShipDetailPage />} />
       </Routes>
     </Router>
   );
