@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarShipDetail component renders StarShipDetail 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      X-wing
+    </h1>
+    <h3>
+      Model: T-65 X-wing
+    </h3>
+    <h4>
+      Manufacturer: Incom Corporation
+    </h4>
+    <h4>
+      Cost: 149999 credits
+    </h4>
+    <h4>
+      Length: 12.5
+    </h4>
+    <h4>
+      Max Speed: 1050 atmospheres
+    </h4>
+    <h5>
+      No. of crew 1
+    </h5>
+    <h5>
+      Passengers: 0
+    </h5>
+    <h5>
+      HyperDrive Rating: 1.0
+    </h5>
+    <h5>
+      Starship Class: Starfighter
+    </h5>
+    <h4>
+      Pilots: 
+      <a
+        href="/char-detail/1/"
+      >
+        <p>
+          https://swapi.dev/api/people/1/
+        </p>
+      </a>
+      <a
+        href="/char-detail/2/"
+      >
+        <p>
+          https://swapi.dev/api/people/2/
+        </p>
+      </a>
+      <a
+        href="/char-detail/3/"
+      >
+        <p>
+          https://swapi.dev/api/people/3/
+        </p>
+      </a>
+      <a
+        href="/char-detail/4/"
+      >
+        <p>
+          https://swapi.dev/api/people/4/
+        </p>
+      </a>
+      <a
+        href="/char-detail/5/"
+      >
+        <p>
+          https://swapi.dev/api/people/5/
+        </p>
+      </a>
+    </h4>
+    <h4>
+      Films: 
+      <a
+        href="/film-detail/1/"
+      >
+        <p>
+          https://swapi.dev/api/films/1/
+        </p>
+      </a>
+      <a
+        href="/film-detail/2/"
+      >
+        <p>
+          https://swapi.dev/api/films/2/
+        </p>
+      </a>
+      <a
+        href="/film-detail/3/"
+      >
+        <p>
+          https://swapi.dev/api/films/3/
+        </p>
+      </a>
+    </h4>
+  </div>
+</DocumentFragment>
+`;
