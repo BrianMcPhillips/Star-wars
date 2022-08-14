@@ -85,15 +85,27 @@ exports[`FilmDetail component renders FilmDetail 1`] = `
     </h3>
     <h3>
       Starships: 
-      <p>
-        https://swapi.dev/api/starships/2/
-      </p>
-      <p>
-        https://swapi.dev/api/starships/3/
-      </p>
-      <p>
-        https://swapi.dev/api/starships/5/
-      </p>
+      <a
+        href="/ship-detail/2/"
+      >
+        <p>
+          https://swapi.dev/api/starships/2/
+        </p>
+      </a>
+      <a
+        href="/ship-detail/3/"
+      >
+        <p>
+          https://swapi.dev/api/starships/3/
+        </p>
+      </a>
+      <a
+        href="/ship-detail/5/"
+      >
+        <p>
+          https://swapi.dev/api/starships/5/
+        </p>
+      </a>
     </h3>
     <h3>
       Vehicles: 

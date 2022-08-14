@@ -10,7 +10,7 @@ const Planet = ({ name, terrain, url }) => (
 
 Planet.propTypes = {
   name: PropTypes.string.isRequired,
-  terrain: PropTypes.string.isREquired
+  terrain: PropTypes.string.isRequired
 };
 
 export default Planet;

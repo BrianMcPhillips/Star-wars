@@ -54,12 +54,20 @@ exports[`CharacterDetail component renders CharacterDetail 1`] = `
     </h4>
     <h4>
       Starships: 
-      <p>
-        https://swapi.dev/api/starships/12/
-      </p>
-      <p>
-        https://swapi.dev/api/starships/22/
-      </p>
+      <a
+        href="/ship-detail/12/"
+      >
+        <p>
+          https://swapi.dev/api/starships/12/
+        </p>
+      </a>
+      <a
+        href="/ship-detail/22/"
+      >
+        <p>
+          https://swapi.dev/api/starships/22/
+        </p>
+      </a>
     </h4>
   </div>
 </DocumentFragment>

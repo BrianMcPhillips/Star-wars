@@ -22,7 +22,7 @@ exports[`StarShipDetail component renders StarShipDetail 1`] = `
       Max Speed: 1050 atmospheres
     </h4>
     <h5>
-      No. of crew 1
+      No. of crew: 1
     </h5>
     <h5>
       Passengers: 0
