@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanetDetail component renders PlanetDetail 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Tatooine
+    </h1>
+    <h3>
+      Diameter: 10465
+    </h3>
+    <h4>
+      Climate: arid
+    </h4>
+    <h4>
+      Gravity: 1 standard
+    </h4>
+    <h4>
+      Terrain: desert
+    </h4>
+    <h4>
+      Population: 200000
+    </h4>
+    <h4>
+      Residents: 
+      <p>
+        https://swapi.dev/api/people/1/
+      </p>
+      <p>
+        https://swapi.dev/api/people/2/
+      </p>
+      <p>
+        https://swapi.dev/api/people/4/
+      </p>
+      <p>
+        https://swapi.dev/api/people/6/
+      </p>
+      <p>
+        https://swapi.dev/api/people/7/
+      </p>
+      <p>
+        https://swapi.dev/api/people/8/
+      </p>
+      <p>
+        https://swapi.dev/api/people/9/
+      </p>
+      <p>
+        https://swapi.dev/api/people/11/
+      </p>
+      <p>
+        https://swapi.dev/api/people/43/
+      </p>
+      <p>
+        https://swapi.dev/api/people/62/
+      </p>
+    </h4>
+    <h4>
+      Films: 
+      <p>
+        https://swapi.dev/api/films/1/
+      </p>
+      <p>
+        https://swapi.dev/api/films/3/
+      </p>
+      <p>
+        https://swapi.dev/api/films/4/
+      </p>
+      <p>
+        https://swapi.dev/api/films/5/
+      </p>
+      <p>
+        https://swapi.dev/api/films/6/
+      </p>
+    </h4>
+  </div>
+</DocumentFragment>
+`;
