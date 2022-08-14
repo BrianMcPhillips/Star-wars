@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import CharacterList from '../../components/CharacterList/CharacterList';
+import CharacterList from 
+  '../../components/characters/CharacterList/CharacterList';
 import { fetchCharacters } from '../../services/star-wars-api';
 
 const CharacterPage = () => {

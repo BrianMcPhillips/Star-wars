@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarShipList component renders StarShipList 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <h1>
+        Star Destroyer
+      </h1>
+      <h3>
+        Imperial I-class Star Destroyer
+      </h3>
+    </li>
+    <li>
+      <h1>
+        Sentinel-class landing craft
+      </h1>
+      <h3>
+        Sentinel-class landing craft
+      </h3>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
