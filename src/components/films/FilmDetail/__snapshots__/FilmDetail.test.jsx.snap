@@ -55,15 +55,15 @@ exports[`FilmDetail component renders FilmDetail 1`] = `
     </h3>
     <h3>
       Planets: 
-      <p>
-        https://swapi.dev/api/planets/1/
-      </p>
-      <p>
-        https://swapi.dev/api/planets/2/
-      </p>
-      <p>
-        https://swapi.dev/api/planets/3/
-      </p>
+      <a
+        href="/planet-detail/1/"
+      />
+      <a
+        href="/planet-detail/2/"
+      />
+      <a
+        href="/planet-detail/3/"
+      />
     </h3>
     <h3>
       Species: 
