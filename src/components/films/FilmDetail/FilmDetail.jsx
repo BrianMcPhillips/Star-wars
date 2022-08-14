@@ -33,7 +33,13 @@ const FilmDetail = ({
       </h3>
       <h3>Planets: {mapData(planets)}</h3>
       <h3>Species: {mapData(species)}</h3>
-      <h3>Starships: {mapData(starships)}</h3>
+      <h3>Starships: {starships.map((ship, i) =>
+        <Link 
+          to={`/ship-detail/${ship.split('ships/')[1]}`} 
+          key={ship + i}>
+          <p>{ship}</p>
+        </Link>
+      )}</h3>
       <h3>Vehicles: {mapData(vehicles)}</h3>
     </div>
   );
