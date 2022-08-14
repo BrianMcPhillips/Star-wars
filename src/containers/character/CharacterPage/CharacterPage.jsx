@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CharacterList from 
-  '../../components/characters/CharacterList/CharacterList';
-import { fetchCharacters } from '../../services/star-wars-api';
+  '../../../components/characters/CharacterList/CharacterList';
+import { fetchCharacters } from '../../../services/star-wars-api';
 
 const CharacterPage = () => {
   const [loading, setLoading] = useState(true);
@@ -21,7 +21,6 @@ const CharacterPage = () => {
     </div>
     
   );
-
 
 };
 
