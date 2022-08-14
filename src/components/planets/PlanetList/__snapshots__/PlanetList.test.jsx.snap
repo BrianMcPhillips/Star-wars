@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanetList component renders PlanetList 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <h1>
+        Tatooine
+      </h1>
+      <h4>
+        desert
+      </h4>
+    </li>
+    <li>
+      <h1>
+        Tatooine dos
+      </h1>
+      <h4>
+        desert cool
+      </h4>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
