@@ -46,7 +46,13 @@ const FilmDetail = ({
           <p>{ship}</p>
         </Link>
       )}</h3>
-      <h3>Vehicles: {mapData(vehicles)}</h3>
+      <h3>Vehicles: {vehicles.map((vehicle, i) =>
+        <Link 
+          to={`/vehicle-detail/${vehicle.split('vehicles/')[1]}`}
+          key={vehicle + i}>
+          <p>{vehicle}</p>
+        </Link>
+      )}</h3>
     </div>
   );
 };
