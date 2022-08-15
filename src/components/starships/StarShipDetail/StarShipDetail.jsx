@@ -6,7 +6,7 @@ const StarShipDetail = ({
   name, 
   model,
   manufacturer,
-  const_in_credits,
+  cost_in_credits,
   length,
   max_atmosphering_speed,
   crew,
@@ -20,7 +20,7 @@ const StarShipDetail = ({
     <h1>{name}</h1>
     <h3>Model: {model}</h3>
     <h4>Manufacturer: {manufacturer}</h4>
-    <h4>Cost: {const_in_credits} credits</h4>
+    <h4>Cost: {cost_in_credits} credits</h4>
     <h4>Length: {length}</h4>
     <h4>Max Speed: {max_atmosphering_speed} atmospheres</h4>
     <h5>No. of crew: {crew}</h5>
@@ -50,7 +50,7 @@ StarShipDetail.propTypes = {
   name: PropTypes.string.isRequired,
   model: PropTypes.string.isRequired,
   manufacturer: PropTypes.string.isRequired,
-  const_in_credits: PropTypes.string.isRequired,
+  cost_in_credits: PropTypes.string.isRequired,
   length: PropTypes.string.isRequired,
   max_atmosphering_speed: PropTypes.string.isRequired,
   crew: PropTypes.string.isRequired,
