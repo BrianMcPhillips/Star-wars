@@ -14,6 +14,8 @@ import PlanetDetailPage from
   '../../containers/planet/PlanetDetailPage/PlanetDetailPage';
 import StarShipDetailPage from 
   '../../containers/starship/StarShipDetailPage/StarShipDetailPage';
+import VehicleDetailPage from 
+  '../../containers/vehicle/VehicleDetailPage/VehicleDetailPage';
 
 
 
@@ -26,6 +28,7 @@ export default function App() {
         <Route path="/film-detail/:id" element={<FilmDetailPage />} />
         <Route path="/ship-detail/:id" element={<StarShipDetailPage />} />
         <Route path="/planet-detail/:id" element={<PlanetDetailPage />} />
+        <Route path="/vehicle-detail/:id" element={<VehicleDetailPage />} />
       </Routes>
     </Router>
   );
