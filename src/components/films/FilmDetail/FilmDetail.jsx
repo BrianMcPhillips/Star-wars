@@ -35,6 +35,7 @@ const FilmDetail = ({
         <Link
           to={`/planet-detail/${planet.split('planets/')[1]}`} 
           key={planet + i}>
+          <p>{planet}</p>
         </Link>
       )}</h3>
       <h3>Species: {mapData(species)}</h3>
