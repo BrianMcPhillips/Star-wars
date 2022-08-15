@@ -1,24 +1,23 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import StarShipDetail from './StarShipDetail';
+import VehicleDetail from './VehicleDetail';
 import { MemoryRouter } from 'react-router-dom';
 
-describe('StarShipDetail component', () => {
+describe('VehicleDetail component', () => {
   afterEach(() => cleanup());
-  it('renders StarShipDetail', () => {
+  it('renders VehicleDetail', () => {
     const { asFragment } = render(
       <MemoryRouter>
-        <StarShipDetail 
-          name="X-wing" 
-          model="T-65 X-wing" 
-          manufacturer="Incom Corporation"
+        <VehicleDetail 
+          name="Sand Crawler" 
+          model="Digger Crawler" 
+          manufacturer="Corellia Mining Corporation"
           cost_in_credits="149999" 
           length="12.5"
           max_atmosphering_speed="1050"
           crew="1"
           passengers="0"
-          hyperdrive_rating="1.0"
-          starship_class="Starfighter"
+          vehicle_class="Wheeled"
           pilots= {[
             'https://swapi.dev/api/people/1/', 
             'https://swapi.dev/api/people/2/', 
@@ -31,6 +30,7 @@ describe('StarShipDetail component', () => {
             'https://swapi.dev/api/films/2/', 
             'https://swapi.dev/api/films/3/'
           ]} 
+          url="https://swapi.dev/api/vehicles/4"
         />
       </MemoryRouter>
     );

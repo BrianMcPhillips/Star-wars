@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vehicle component renders Vehicle 1`] = `
+<DocumentFragment>
+  <h1>
+    Sand Crawler
+  </h1>
+  <h4>
+    Digger Crawler
+  </h4>
+</DocumentFragment>
+`;

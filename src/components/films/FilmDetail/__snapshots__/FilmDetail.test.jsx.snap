@@ -57,13 +57,25 @@ exports[`FilmDetail component renders FilmDetail 1`] = `
       Planets: 
       <a
         href="/planet-detail/1/"
-      />
+      >
+        <p>
+          https://swapi.dev/api/planets/1/
+        </p>
+      </a>
       <a
         href="/planet-detail/2/"
-      />
+      >
+        <p>
+          https://swapi.dev/api/planets/2/
+        </p>
+      </a>
       <a
         href="/planet-detail/3/"
-      />
+      >
+        <p>
+          https://swapi.dev/api/planets/3/
+        </p>
+      </a>
     </h3>
     <h3>
       Species: 
@@ -109,18 +121,34 @@ exports[`FilmDetail component renders FilmDetail 1`] = `
     </h3>
     <h3>
       Vehicles: 
-      <p>
-        https://swapi.dev/api/vehicles/4/
-      </p>
-      <p>
-        https://swapi.dev/api/vehicles/6/
-      </p>
-      <p>
-        https://swapi.dev/api/vehicles/7/
-      </p>
-      <p>
-        https://swapi.dev/api/vehicles/8/
-      </p>
+      <a
+        href="/vehicle-detail/4/"
+      >
+        <p>
+          https://swapi.dev/api/vehicles/4/
+        </p>
+      </a>
+      <a
+        href="/vehicle-detail/6/"
+      >
+        <p>
+          https://swapi.dev/api/vehicles/6/
+        </p>
+      </a>
+      <a
+        href="/vehicle-detail/7/"
+      >
+        <p>
+          https://swapi.dev/api/vehicles/7/
+        </p>
+      </a>
+      <a
+        href="/vehicle-detail/8/"
+      >
+        <p>
+          https://swapi.dev/api/vehicles/8/
+        </p>
+      </a>
     </h3>
   </div>
 </DocumentFragment>

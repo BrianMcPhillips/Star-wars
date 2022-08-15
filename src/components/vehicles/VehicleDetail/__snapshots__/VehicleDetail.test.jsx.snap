@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleDetail component renders VehicleDetail 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Sand Crawler
+    </h1>
+    <h3>
+      Digger Crawler
+    </h3>
+    <h4>
+      Corellia Mining Corporation
+    </h4>
+    <h4>
+      Cost: 149999
+    </h4>
+    <h4>
+      Length: 12.5
+    </h4>
+    <h4>
+      Speed: 1050
+    </h4>
+    <h4>
+      Crew: 1
+    </h4>
+    <h4>
+      Passengers: 0
+    </h4>
+    <h4>
+      Vehicle Class: Wheeled
+    </h4>
+    <h4>
+      Pilots: 
+      <a
+        href="/char-detail/1/"
+      >
+        <p>
+          https://swapi.dev/api/people/1/
+        </p>
+      </a>
+      <a
+        href="/char-detail/2/"
+      >
+        <p>
+          https://swapi.dev/api/people/2/
+        </p>
+      </a>
+      <a
+        href="/char-detail/3/"
+      >
+        <p>
+          https://swapi.dev/api/people/3/
+        </p>
+      </a>
+      <a
+        href="/char-detail/4/"
+      >
+        <p>
+          https://swapi.dev/api/people/4/
+        </p>
+      </a>
+      <a
+        href="/char-detail/5/"
+      >
+        <p>
+          https://swapi.dev/api/people/5/
+        </p>
+      </a>
+    </h4>
+    <h4>
+      Films: 
+      <a
+        href="/film-detail/1/"
+      >
+        <p>
+          https://swapi.dev/api/films/1/
+        </p>
+      </a>
+      <a
+        href="/film-detail/2/"
+      >
+        <p>
+          https://swapi.dev/api/films/2/
+        </p>
+      </a>
+      <a
+        href="/film-detail/3/"
+      >
+        <p>
+          https://swapi.dev/api/films/3/
+        </p>
+      </a>
+    </h4>
+  </div>
+</DocumentFragment>
+`;

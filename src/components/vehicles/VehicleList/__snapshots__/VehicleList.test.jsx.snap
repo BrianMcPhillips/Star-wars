@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleList component renders VehicleList 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <h1>
+        Speeder
+      </h1>
+      <h4>
+        Imperial I-class Speeder
+      </h4>
+    </li>
+    <li>
+      <h1>
+        Sentinel-class landing craft
+      </h1>
+      <h4>
+        Sentinel-class landing craft
+      </h4>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

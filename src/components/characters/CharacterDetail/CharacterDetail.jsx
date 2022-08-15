@@ -22,7 +22,11 @@ const CharacterDetail = ({
       </Link>)}
     </h4>
     <h4>Vehicles: {vehicles.map((vehicle, i) => 
-      <p key={vehicle + i}>{vehicle}</p>)}
+      <Link
+        to={`/vehicle-detail/${vehicle.split('vehicles/')[1]}`}
+        key={vehicle + i}>
+        <p>{vehicle}</p>
+      </Link>)}
     </h4>
     <h4>Starships: {starships.map((ship, i) => 
       <Link 
