@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeciesDetail component renders SpeciesDetail 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Human
+    </h1>
+    <h4>
+      Classification: mammal
+    </h4>
+    <h4>
+      Designation: sentient
+    </h4>
+    <h4>
+      Average Lifespan: 120
+    </h4>
+    <h4>
+      Homeworld: https://swapi.dev/api/planets/9
+    </h4>
+    <h4>
+      Language: Galactic Basic
+    </h4>
+    <h4>
+      Characters: 
+      <a
+        href="/char-detail/12/"
+      >
+        <p>
+          https://swapi.dev/api/people/12/
+        </p>
+      </a>
+      <a
+        href="/char-detail/22/"
+      >
+        <p>
+          https://swapi.dev/api/people/22/
+        </p>
+      </a>
+    </h4>
+    <h4>
+      Films: 
+      <a
+        href="/film-detail/1/"
+      />
+      <a
+        href="/film-detail/2/"
+      />
+      <a
+        href="/film-detail/3/"
+      />
+      <a
+        href="/film-detail/6/"
+      />
+    </h4>
+  </div>
+</DocumentFragment>
+`;
