@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import FilmDetail from '../../../components/films/FilmDetail/FilmDetail';
+import VehicleDetail from 
+  '../../../components/vehicles/VehicleDetail/VehicleDetail';
+
 
 const VehicleDetailPage = () => {
   const [loading, setLoading] = useState(true);
@@ -16,7 +18,7 @@ const VehicleDetailPage = () => {
 
   if(loading) return <h1>Loading...</h1>;
   return (
-    <FilmDetail {...data}/>
+    <VehicleDetail {...data}/>
   );
 
 };

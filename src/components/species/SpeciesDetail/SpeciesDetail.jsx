@@ -30,6 +30,7 @@ const SpeciesDetail = ({
       <Link
         to={`/film-detail/${film.split('films/')[1]}`}
         key={film + i}>
+        <p>{film}</p>
       </Link>
     )}</h4>
   </div>
