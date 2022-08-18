@@ -42,16 +42,32 @@ exports[`SpeciesDetail component renders SpeciesDetail 1`] = `
       Films: 
       <a
         href="/film-detail/1/"
-      />
+      >
+        <p>
+          https://swapi.dev/api/films/1/
+        </p>
+      </a>
       <a
         href="/film-detail/2/"
-      />
+      >
+        <p>
+          https://swapi.dev/api/films/2/
+        </p>
+      </a>
       <a
         href="/film-detail/3/"
-      />
+      >
+        <p>
+          https://swapi.dev/api/films/3/
+        </p>
+      </a>
       <a
         href="/film-detail/6/"
-      />
+      >
+        <p>
+          https://swapi.dev/api/films/6/
+        </p>
+      </a>
     </h4>
   </div>
 </DocumentFragment>
