@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const PlanetDetail = ({
   name,
@@ -19,10 +20,18 @@ const PlanetDetail = ({
     <h4>Terrain: {terrain}</h4>
     <h4>Population: {population}</h4>
     <h4>Residents: {residents.map((resident, i) => 
-      <p key={resident + i}>{resident}</p>
+      <Link
+        to={`/char-detail/${resident.split('people/')[1]}`}
+        key={resident + i}>
+        <p>{resident}</p>
+      </Link>
     )}</h4>
     <h4>Films: {films.map((film, i) => 
-      <p key={film + i}>{film}</p>
+      <Link
+        to={`/film-detail/${film.split('films/')[1]}`}
+        key={film + i}>
+        <p>{film}</p>
+      </Link>
     )}</h4>
   </div>
 );
