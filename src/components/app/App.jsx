@@ -18,12 +18,14 @@ import StarShipDetailPage from
   '../../containers/starship/StarShipDetailPage/StarShipDetailPage';
 import VehicleDetailPage from 
   '../../containers/vehicle/VehicleDetailPage/VehicleDetailPage';
+import Header from './Header/Header';
 
 
 
 export default function App() {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<CharacterPage />} />
         <Route path="/char-detail/:id" element={<CharacterDetailPage />} />
