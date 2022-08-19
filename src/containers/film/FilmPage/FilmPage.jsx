@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Loading from '../../../components/app/Loading/Loading';
 import FilmList from '../../components/FilmList/FilmList';
 
 const FilmPage = () => {
@@ -12,7 +13,7 @@ const FilmPage = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if(loading) return <h1>Loading</h1>;
+  if(loading) return <Loading />;
   return (
     <FilmList data={data}/>
   );
