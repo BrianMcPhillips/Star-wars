@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Loading from '../../../components/app/Loading/Loading';
 import CharacterList from 
   '../../../components/characters/CharacterList/CharacterList';
 import { fetchCharacters } from '../../../services/star-wars-api';
@@ -13,7 +14,7 @@ const CharacterPage = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if(loading) return (<h1>Loading...</h1>);
+  if(loading) return <Loading />;
   return (
     <div>
       <h1>Characters</h1>

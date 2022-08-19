@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading component renders Loading 1`] = `
+<DocumentFragment>
+  <div>
+    <img
+      alt="Star Wars"
+      src="https://i.gifer.com/origin/52/521cf8cd643fa3b98a4b0a57c2f949c2.gif"
+    />
+  </div>
+</DocumentFragment>
+`;

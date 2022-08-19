@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Loading from '../../../components/app/Loading/Loading';
 import PlanetDetail from 
   '../../../components/planets/PlanetDetail/PlanetDetail';
 
@@ -13,7 +14,7 @@ const PlanetDetailPage = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if(loading) return <h1>Loading...</h1>;
+  if(loading) return <Loading />;
   return (
     <PlanetDetail {...data}/>
   );

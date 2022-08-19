@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Loading from '../../../components/app/Loading/Loading';
 import StarShipDetail from 
   '../../../components/starships/StarShipDetail/StarShipDetail';
 
@@ -15,7 +16,7 @@ const StarShipDetailPage = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if(loading) return <h1>Loading...</h1>;
+  if(loading) return <Loading />;
   return (
     <StarShipDetail {...data}/>
   );
