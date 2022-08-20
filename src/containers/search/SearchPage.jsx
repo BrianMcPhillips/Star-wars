@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Search from '../../components/search/Search/Search';
 
 const SearchPage = () => {
   const [loading, setLoading] = useState(true);
@@ -11,7 +12,12 @@ const SearchPage = () => {
 
    
   return (
-
+    <Search 
+      searchBy={searchBy}
+      searchTerm={searchTerm}
+      handleSearchBy={handleSearchBy}
+      handleSearchTerm={handleSearchTerm}
+    />
   );
 };
 
