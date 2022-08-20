@@ -2,13 +2,15 @@
 
 exports[`Header component renders Header 1`] = `
 <DocumentFragment>
-  <header>
-    <div>
-      <h1>
-        Star Wars
-      </h1>
-    </div>
-    <div>
+  <header
+    class="header"
+  >
+    <h1>
+      Star Wars
+    </h1>
+    <div
+      class="links"
+    >
       <a
         href="/"
       >
