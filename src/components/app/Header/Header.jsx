@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 const Header = () => (
   <header className={styles.header}>
     <h1>Star Wars</h1>
-    <div>
+    <div className={styles.links}>
       <Link to={'/'}>
         Home
       </Link>

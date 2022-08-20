@@ -9,3 +9,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.links {
+  position: absolute;
+  right: 5vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
