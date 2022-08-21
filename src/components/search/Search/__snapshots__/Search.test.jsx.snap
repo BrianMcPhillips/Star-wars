@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component renders Search 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      Search
+    </h3>
+    <input
+      type="text"
+      value="R2"
+    />
+    <select>
+      <option
+        value="films"
+      >
+        films
+      </option>
+      <option
+        value="people"
+      >
+        people
+      </option>
+      <option
+        value="planets"
+      >
+        planets
+      </option>
+      <option
+        value="species"
+      >
+        species
+      </option>
+      <option
+        value="starships"
+      >
+        starships
+      </option>
+      <option
+        value="vehicles"
+      >
+        vehicles
+      </option>
+    </select>
+    <button>
+      Search
+    </button>
+  </div>
+</DocumentFragment>
+`;

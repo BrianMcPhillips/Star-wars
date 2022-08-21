@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
 
 const Header = () => (
-  <header>
-    <div>
-      <h1>Star Wars</h1>
-    </div>
-    <div>
+  <header className={styles.header}>
+    <h1>Star Wars</h1>
+    <div className={styles.links}>
       <Link to={'/'}>
         Home
       </Link>
