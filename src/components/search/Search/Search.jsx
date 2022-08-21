@@ -6,7 +6,8 @@ const Search = ({
   searchBy,
   searchTerm,
   handleSearchBy,
-  handleSearchTerm
+  handleSearchTerm,
+  makeRequest
 }) => (
   <div>
     <h3>Search</h3>
@@ -18,6 +19,7 @@ const Search = ({
         )
       }
     </select>
+    <button onClick={makeRequest}>Search</button>
   </div>
 );
 
@@ -25,7 +27,8 @@ Search.propTypes = {
   searchBy: PropTypes.string.isRequired,
   searchTerm: PropTypes.string.isRequired,
   handleSearchBy: PropTypes.func.isRequired,
-  handleSearchTerm: PropTypes.func.isRequired
+  handleSearchTerm: PropTypes.func.isRequired,
+  makeRequest: PropTypes.func.isRequired
 };
 
 export default Search;
