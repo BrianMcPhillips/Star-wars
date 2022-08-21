@@ -9,7 +9,11 @@ const SearchPage = () => {
 
   const handleSearchBy = ({ target }) => setSearchBy(target.value);
   const handleSearchTerm = ({ target }) => setSearchTerm(target.velue);
-
+  const makeRequest = () => 
+    fetch(`https://swapi.dev/api/${searchBy}/?search=${searchTerm}`)
+      .then(res => res.json())
+      .then(data => setData(data))
+      .finally(() => setLoading(false));
    
   return (
     <Search 
@@ -17,6 +21,7 @@ const SearchPage = () => {
       searchTerm={searchTerm}
       handleSearchBy={handleSearchBy}
       handleSearchTerm={handleSearchTerm}
+      makeRequest={makeRequest}
     />
   );
 };
